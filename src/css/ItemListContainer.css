@@ -1,0 +1,13 @@
+.saludo-container {
+    display: flex;               
+    justify-content: center;    
+    align-items: center;         
+    height: 100vh;               
+    background: linear-gradient(to right, #feffffef, #454545);
+}
+
+.saludo-container h1 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
