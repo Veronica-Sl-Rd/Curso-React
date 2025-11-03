@@ -1,8 +1,8 @@
 const CartWidget = () => {
     return (
         <div>
-            <span style={{fontSize: "30px"}}>🛒</span>
-            <span style={{color: "white"}}>0</span>
+            <i className= "bi bi-cart fs-4 text-light"></i>
+            <span className="badge bg-danger rounded-pill">0</ span>
         </div>
     )
 }
