@@ -1,4 +1,4 @@
-# # VERSUM 📖
+# VERSUM 📖
 ## App de REACT
 
 [](../assets/bookanimation.gif)
