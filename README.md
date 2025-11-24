@@ -1,7 +1,7 @@
 # VERSUM 📖
 ## App de REACT
 
-[](./src/assets/bookanimation.gif)
+[](../src/assets/bookanimation.gif)
 
 Este Proyecto fue creado en el contexto de un curso de React (de CoderHouse) y el mismo consiste en la creación de una app e-commerce (en este caso de una librería) que permite demostrar la integración de todos los conceptos aprendidos y volcarlos en una SPA completamente funcional.
 
@@ -12,7 +12,7 @@ Este Proyecto fue creado en el contexto de un curso de React (de CoderHouse) y e
 4. Para levantar el proyecto de manera local ejecutar el comando `npm run dev`
 
 ### Version Host 💻
-Si deseas ver el proyecto online, podés ingresar al siguiente link: [Coder App]()
+Si deseas ver el proyecto online, podés ingresar al siguiente link: [Coder App](https://curso-react-rosy-two.vercel.app/)
 
 ### Librerias utilizaron 📖
 - [Firebase](https://firebase.google.com/): utilizado como base de datos.
