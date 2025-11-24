@@ -1,16 +1,24 @@
-# React + Vite
+# # VERSUM 📖
+## App de REACT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[](../assets/bookanimation.gif)
 
-Currently, two official plugins are available:
+Este Proyecto fue creado en el contexto de un curso de React (de CoderHouse) y el mismo consiste en la creación de una app e-commerce (en este caso de una librería) que permite demostrar la integración de todos los conceptos aprendidos y volcarlos en una SPA completamente funcional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Instalación ⚙️
+1. Clonar el repositorio.
+2. Ejecutar el comando `cd app-de-react` para moverse a la carpeta raiz del proyecto.
+3. Instalar dependencias con el comando `npm install`.
+4. Para levantar el proyecto de manera local ejecutar el comando `npm run dev`
 
-## React Compiler
+### Version Host 💻
+Si deseas ver el proyecto online, podés ingresar al siguiente link: [Coder App]()
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Librerias utilizaron 📖
+- [Firebase](https://firebase.google.com/): utilizado como base de datos.
+- [React Router Dom](https://reactrouter.com/): utilizada para la navegacion por rutas del proyecto.
+- [React Bootstrap](https://getbootstrap.com/): utilizada para el styling de la app
+- [SweetAlert2](https://sweetalert2.github.io/): utilizada para crear las alertas
+- [React Hook Form](https://react-hook-form.com/): utilizada para la validación de formularios
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Crado por: [Verónica](https://linkedin.com/in/verónica-rodriguez-psi/) 🚺
