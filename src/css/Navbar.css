@@ -1,10 +1,11 @@
 .nav-container {
     background-color: black;
     height: 60px;
-    padding: 20px;
+    padding: 1rem 1.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    position: relative;
 }
 
 .a-nav {
@@ -12,9 +13,55 @@
     font-size: medium;
     text-decoration: none;
     text-transform: uppercase;
+    margin: 0 1rem;
+}
+
+.a-nav:hover {
+    color: #b6b6b7c7;
 }
 
 .logo {
     height: 50px;
     padding: 5px;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.burger {
+    display: none;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*Media Queries*/
+
+@media (max-width: 768px) {
+
+.burger {
+    display: block;
+    }
+
+.links-container {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    padding: 1.5rem 0;
+    gap: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .links-container.active {
+        display: flex;
+    }
+
 }

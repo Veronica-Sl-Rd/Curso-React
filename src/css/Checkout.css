@@ -3,11 +3,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     padding: 2rem;
     border-radius: 20px;
     width: 90%;
     box-shadow:
     0 4px 10px rgba(0, 0, 0, 0.08),
     0 12px 24px rgba(0, 0, 0, 0.10);
+}
+
+.formulario h1 {
+    margin-bottom: 1rem;
+}
+formulario label {
+    transition: color 0.2s ease;
+}
+
+.formulario label:hover {
+    color: #39b6e3;
+    cursor: pointer;
 }

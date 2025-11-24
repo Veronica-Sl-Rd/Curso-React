@@ -14,7 +14,7 @@ const CarrouselNovedades = ({ productos }) => {
     }, []);
 
     return (
-        <div id="carouselNovedades" className="carousel slide mb-4" data-bs-ride="carousel">
+        <div id="carouselNovedades" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 {productos.map((prod, index) => (
                 <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={prod.id}>
