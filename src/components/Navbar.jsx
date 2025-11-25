@@ -19,11 +19,11 @@ const Navbar = ()=> {
                 ☰
             </button>
             <div className={`links-container ${open ? "active" : ""}`}>
-            <NavLink className="a-nav" to='/category/nuevos'>Nuevos</NavLink>
-            <NavLink className="a-nav" to='/category/ofertas'>Ofertas</NavLink>
-            <NavLink className="a-nav" to='/category/mas vendidos'>Mas Vendidos</NavLink>
-            <NavLink className="a-nav" to='/category/clasicos'>Clásicos</NavLink>
-            <CartWidget/>
+            <NavLink className="a-nav" to='/category/nuevos' onClick={() => setOpen(false)}>Nuevos</NavLink>
+            <NavLink className="a-nav" to='/category/ofertas' onClick={() => setOpen(false)}>Ofertas</NavLink>
+            <NavLink className="a-nav" to='/category/mas vendidos' onClick={() => setOpen(false)}>Mas Vendidos</NavLink>
+            <NavLink className="a-nav" to='/category/clasicos' onClick={() => setOpen(false)}>Clásicos</NavLink>
+            <CartWidget onClick={() => setOpen(false)}/>
             </div>
         </nav>
     )

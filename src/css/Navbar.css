@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
+    z-index: 9999;
 }
 
 .a-nav {
@@ -45,23 +46,28 @@
 
 .burger {
     display: block;
+    color: white;
     }
 
 .links-container {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: 60px;
     right: 0;
     width: 100%;
-    background: #fff;
+    background: #0000008f;
     padding: 1.5rem 0;
     gap: 1.2rem;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    z-index: 9999;
     }
 
     .links-container.active {
         display: flex;
     }
 
+    a-nav:hover {
+    color: #23abe6c7;
+}
 }
