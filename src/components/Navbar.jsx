@@ -1,8 +1,12 @@
+import { useState } from 'react'
 import '../css/Navbar.css'
 import CartWidget from './CartWidget'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = ()=> {
+
+    const [open, setOpen] = useState(false)
+
     return (
         <nav className= "nav-container">
             <NavLink className="a-nav" to='/'>
